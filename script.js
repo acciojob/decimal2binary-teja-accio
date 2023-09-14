@@ -6,11 +6,11 @@ function decimalToBinary(num) {
  
     // counter for binary array
     let i = 0;
-    while (n > 0) {
+    while (num > 0) {
  
         // storing remainder in binary array
-        binaryNum[i] = n % 2;
-        n = Math.floor(n / 2);
+        binaryNum[i] = num % 2;
+        n = Math.floor(num / 2);
         i++;
     }
  
@@ -21,7 +21,7 @@ function decimalToBinary(num) {
  
 // Driver program to test above function
     let n = 17;
-    decToBinary(n);
+    decToBinary(num);
 }
 
 window.decimalToBinary = decimalToBinary;
