@@ -22,6 +22,5 @@ function decimalToBinary(num) {
 // Driver program to test above function
     let n = 17;
     decToBinary(num);
-}
 
 window.decimalToBinary = decimalToBinary;
