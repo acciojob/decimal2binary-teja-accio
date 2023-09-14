@@ -10,7 +10,7 @@ function decimalToBinary(num) {
  
         // storing remainder in binary array
         binaryNum[i] = num % 2;
-        n = Math.floor(num / 2);
+        num = Math.floor(num / 2);
         i++;
     }
  
